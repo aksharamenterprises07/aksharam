@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aksharam Enterprises - Printing Services</title>
+
+  <!-- Tailwind CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+
+  <style>
+    .media-card {
+      transition: transform 0.4s ease, box-shadow 0.4s ease, opacity 0.4s ease;
+    }
+    .media-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 20px 30px rgba(0,0,0,0.2);
+    }
+    video {
+      object-fit: cover;
+    }
+  </style>
+</head>
+
+<body class="bg-gray-50 text-gray-900">
+
+<!-- HEADER -->
+<header class="bg-white shadow p-6">
+  <div class="max-w-6xl mx-auto flex justify-between items-center">
+    <div class="flex items-center space-x-4">
+      <img src="logo.png" alt="Aksharam Enterprises Logo" class="h-12 w-auto" />
+      <div>
+        <h1 class="text-2xl font-bold">Aksharam Enterprises</h1>
+        <p class="text-sm text-gray-600">The Printing Hub</p>
+      </div>
+    </div>
+    <a href="#contact" class="bg-blue-600 text-white px-4 py-2 rounded-lg">Contact Us</a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="max-w-6xl mx-auto mt-12 text-center px-4">
+  <h2 class="text-4xl font-extrabold mb-4">Premium Printing Services</h2>
+  <p class="text-lg mb-6">
+    High-quality printing for business cards, flex banners, invitations & more.
+  </p>
+  <a href="#products" class="bg-blue-600 text-white px-6 py-3 rounded-xl text-lg">
+    View Our Work
+  </a>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="max-w-6xl mx-auto mt-20 grid grid-cols-1 md:grid-cols-3 gap-10 p-4">
+  <div class="bg-white shadow-lg p-6 rounded-2xl">
+    <h3 class="text-xl font-bold mb-3">Business Cards/ Visiting Cards</h3>
+    <p>Crisp, vibrant & professional designs with premium cards.</p>
+  </div>
+  <div class="bg-white shadow-lg p-6 rounded-2xl">
+    <h3 class="text-xl font-bold mb-3">Letter Head</h3>
+    <p>Two colour and muti-colour letter head printing staring from 85 GSM to 120 GSM.</p>
+  </div>
+  <div class="bg-white shadow-lg p-6 rounded-2xl">
+    <h3 class="text-xl font-bold mb-3">Stickers Printing</h3>
+    <p>We provides Paper, PVC, NT Stickers, as per customers demand with shape cutting .</p>
+  </div>
+  <div class="bg-white shadow-lg p-6 rounded-2xl">
+    <h3 class="text-xl font-bold mb-3">ID Cards</h3>
+    <p>All type of ID cards, biometric cards with lanyard.</p>
+  </div>
+  <div class="bg-white shadow-lg p-6 rounded-2xl">
+    <h3 class="text-xl font-bold mb-3">Corporate Gifting</h3>
+    <p>Mug prining, Bottle printing, Pen printing, Diery's Printing, customise gift printing.</p>
+  </div>
+  <div class="bg-white shadow-lg p-6 rounded-2xl">
+    <h3 class="text-xl font-bold mb-3">Vinyl Printing</h3>
+    <p>Vinyl stickers, Canvas printing, Retro printing, Redium printing, Reflector printing.</p>
+  </div>
+  <div class="bg-white shadow-lg p-6 rounded-2xl">
+    <h3 class="text-xl font-bold mb-3">Flex & Banners</h3>
+    <p>High-resolution large format printing.</p>
+  </div>
+  <div class="bg-white shadow-lg p-6 rounded-2xl">
+    <h3 class="text-xl font-bold mb-3">Invitations Cards and Videos</h3>
+    <p>Wedding Cards, Reception cards, Birthday cards, House warming cards, events & celebration prints.</p>
+  </div>
+    <div class="bg-white shadow-lg p-6 rounded-2xl">
+    <h3 class="text-xl font-bold mb-3">Poster and Digital Printing</h3>
+    <p>We have 13x19, 12x18 size digital print, with texture, metalic, art paper, ivery paper print, etc.</p>
+  </div>
+
+</section>
+
+<!-- PRODUCTS (IMAGES + VIDEOS) -->
+<section id="products" class="max-w-6xl mx-auto mt-20 p-4">
+  <h2 class="text-4xl font-bold text-center mb-6">Our Work</h2>
+  <p class="text-center text-gray-600 mb-10">
+    Images & videos of our recent printing projects
+  </p>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+
+    <!-- IMAGE -->
+    <div class="media-card rounded-xl overflow-hidden bg-white">
+      <img src="media/image1.jpeg" class="w-full h-56 object-cover" alt="Printing Work">
+    </div>
+
+    <div class="media-card rounded-xl overflow-hidden bg-white">
+      <img src="media/image2.jpeg" class="w-full h-56 object-cover" alt="Printing Work">
+    </div>
+
+    <div class="media-card rounded-xl overflow-hidden bg-white">
+      <img src="media/image3.jpeg" class="w-full h-56 object-cover" alt="Printing Work">
+    </div>
+
+    <!-- VIDEO -->
+    <div class="media-card rounded-xl overflow-hidden bg-white">
+      <video autoplay muted loop playsinline class="w-full h-56">
+        <source src="media/video1.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <div class="media-card rounded-xl overflow-hidden bg-white">
+      <video autoplay muted loop playsinline class="w-full h-56">
+        <source src="media/video2.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <div class="media-card rounded-xl overflow-hidden bg-white">
+      <video autoplay muted loop playsinline class="w-full h-56">
+        <source src="media/video3.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="media-card rounded-xl overflow-hidden bg-white">
+      <video autoplay muted loop playsinline class="w-full h-56">
+        <source src="media/video4.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="media-card rounded-xl overflow-hidden bg-white">
+      <video autoplay muted loop playsinline class="w-full h-56">
+        <source src="media/video5.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="media-card rounded-xl overflow-hidden bg-white">
+      <video autoplay muted loop playsinline class="w-full h-56">
+        <source src="media/video6.mp4" type="video/mp4">
+      </video>
+    </div>
+    <!-- ADD MORE IMAGES OR VIDEOS BELOW (NO LIMIT) -->
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="bg-blue-600 text-white mt-20 p-10">
+  <div class="max-w-6xl mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-4">Get in Touch</h2>
+    <p class="mb-6">Fast, reliable & premium quality printing</p>
+    <p class="text-xl font-semibold">📞 +91 8698956387</p>
+    <p class="text-lg mt-2">
+      📍 Kudale Niwas, Near Vegetable Market, Akurdi, Pune - 35
+    </p>
+  </div>
+</section>
+
+<!-- MAP -->
+<section class="max-w-6xl mx-auto mt-16 p-4">
+  <h2 class="text-3xl font-bold mb-4 text-center">Find Us on Map</h2>
+  <div class="w-full h-80 rounded-2xl overflow-hidden shadow-lg">
+    <iframe
+      src="https://www.google.com/maps?q=Aksharam+Enterprises+Akurdi+Pune&output=embed"
+      width="100%"
+      height="100%"
+      style="border:0;"
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="text-center p-6 text-gray-500">
+  © 2025 Aksharam Enterprises. All Rights Reserved.
+</footer>
+
+<!-- WHATSAPP -->
+<a href="https://wa.me/918698956387" target="_blank"
+   class="fixed bottom-6 right-6 bg-green-500 text-white px-4 py-3 rounded-full shadow-xl hover:bg-green-600">
+  Chat on WhatsApp
+</a>
+
+</body>
+</html>
